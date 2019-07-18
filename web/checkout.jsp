@@ -49,7 +49,7 @@
             <!-- Title -->
             <div class="title">
                 <h4>Shopping Cart</h4>
-                <h4 id="totalTxt">Total Price: ${cart.getTotal()}</h4>
+                <h4 id="totalTxt">Total Price: ${cart.getTotal()}$</h4>
                 <a href="success"><button id="checkOutBtn">Checkout</button></a>
             </div>
             <c:forEach items="${myProducts}" var="product">
